@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # saternet install.sh
 # Installs saternet on any Linux distribution.
 # Usage: sudo bash install.sh   OR   bash install.sh (installs to ~/.local)
