@@ -9,6 +9,12 @@ across any Linux distribution. No tables, no pipes, no noise.
 
 ---
 
+<div align=center>
+<img width="694" height="583" alt="foot" src="https://github.com/user-attachments/assets/0880d91b-1c39-4b70-bb6a-ea8bac1f3f3c" />
+</div>
+
+---
+
 ## features
 
 - list all environments with path, python version, size, and active status
@@ -53,12 +59,6 @@ saternet log                       show activity log
 saternet version                   print version
 saternet help                      show all commands
 ```
-
----
-
-<div align=center>
-<img width="694" height="583" alt="foot" src="https://github.com/user-attachments/assets/0880d91b-1c39-4b70-bb6a-ea8bac1f3f3c" />
-</div>
 
 ---
 
