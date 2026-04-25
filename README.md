@@ -37,6 +37,8 @@ across any Linux distribution. No tables, no pipes, no noise.
 git clone https://github.com/Chintanpatel24/saternet.git
 cd saternet
 bash install.sh
+saternet help
+saternet
 ```
 ---
 
