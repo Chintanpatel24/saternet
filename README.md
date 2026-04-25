@@ -56,7 +56,7 @@ saternet help                      show all commands
 
 ---
 
->##  Foot screenshots !!
+>##  Foot(Terminal) screenshots !!
 
 <details>       
   <summary>Tap to view ⤥ </summary>
