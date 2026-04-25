@@ -63,6 +63,10 @@ saternet help                      show all commands
        
 
 <img width="694" height="583" alt="foot" src="https://github.com/user-attachments/assets/0880d91b-1c39-4b70-bb6a-ea8bac1f3f3c" />
+<img width="628" height="130" alt="scan" src="https://github.com/user-attachments/assets/47997d00-5308-4667-95b5-f343b401add2" />
+<img width="968" height="670" alt="h1" src="https://github.com/user-attachments/assets/aa6cf0aa-5bd7-4833-9597-5d2d5f355267" />
+<img width="590" height="594" alt="info" src="https://github.com/user-attachments/assets/c501fd3a-1119-4fcc-9f85-c57fa556621d" />
+<img width="735" height="527" alt="h2" src="https://github.com/user-attachments/assets/355b77a7-8b6d-4115-902b-9fdab1d4d78e" />
 
 
 </details>   
