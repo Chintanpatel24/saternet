@@ -4,7 +4,7 @@
 
 set -e
 
-REPO_URL="https://github.com/yourusername/saternet"
+REPO_URL="https://github.com/Chintanpatel24/saternet"
 VERSION="1.0.0"
 TOOL_NAME="saternet"
 SRC="src/saternet.py"
