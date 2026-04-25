@@ -14,6 +14,7 @@
 - A clean, professional CLI tool for managing Python virtual environments
 across any Linux distribution. No tables, no pipes, no noise.
 
+---
 
 ## features
 
@@ -26,6 +27,7 @@ across any Linux distribution. No tables, no pipes, no noise.
 - app menu shortcut for quick terminal launch
 - works on Debian, Ubuntu, Arch, Fedora, openSUSE, and any systemd-based distro
 
+---
 
 ## install
 
@@ -36,49 +38,7 @@ git clone https://github.com/Chintanpatel24/saternet.git
 cd saternet
 bash install.sh
 ```
-
-For system-wide install:
-
-```bash
-sudo bash install.sh
-```
-
-### debian / ubuntu (.deb)
-
-```bash
-make deb
-sudo dpkg -i dist/saternet_1.0.0.deb
-```
-
-Or install the dependency manually if needed:
-
-```bash
-sudo apt install python3
-sudo dpkg -i dist/saternet_1.0.0.deb
-```
-
-### arch linux (AUR / manual)
-
-```bash
-cd packaging
-makepkg -si
-```
-
-Or use an AUR helper:
-
-```bash
-yay -S saternet
-paru -S saternet
-```
-
-### fedora / rhel / opensuse
-
-```bash
-bash install.sh
-```
-
-Installs to `~/.local/bin/saternet` when run without sudo.
-
+---
 
 ## usage
 
@@ -99,6 +59,7 @@ saternet version                   print version
 saternet help                      show all commands
 ```
 
+---
 
 ## note on activation
 
@@ -109,6 +70,7 @@ the exact `source` command to run in your terminal. You can also add an alias:
 alias myenv='source ~/envs/myenv/bin/activate'
 ```
 
+---
 
 ## update
 
@@ -116,23 +78,9 @@ alias myenv='source ~/envs/myenv/bin/activate'
 cd saternet
 bash update.sh
 ```
-
 The updater fetches the latest changes from the repository and reinstalls.
 
-
-## uninstall
-
-```bash
-cd saternet
-bash uninstall.sh
-```
-
-Or with sudo for a system install:
-
-```bash
-sudo bash uninstall.sh
-```
-
+---
 
 ## config
 
