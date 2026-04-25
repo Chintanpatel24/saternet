@@ -1,0 +1,26 @@
+pkgname=saternet
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Python virtual environment manager for Linux"
+arch=('any')
+url="https://github.com/Chintanpatel24/saternet"
+license=('MIT')
+depends=('python>=3.8')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+    cd "$srcdir/$pkgname-$pkgver"
+
+    install -Dm755 /dev/stdin "$pkgdir/usr/local/bin/$pkgname" << EOF
+#!/usr/bin/env bash
+exec python3 /usr/local/lib/saternet/saternet.py "\$@"
+EOF
+
+    install -Dm644 src/saternet.py "$pkgdir/usr/local/lib/saternet/saternet.py"
+    install -Dm644 assets/saternet.desktop "$pkgdir/usr/share/applications/saternet.desktop"
+
+    if [ -f assets/saternet.png ]; then
+        install -Dm644 assets/saternet.png "$pkgdir/usr/share/pixmaps/saternet.png"
+    fi
+}
