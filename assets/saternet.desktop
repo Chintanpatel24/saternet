@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=saternet
+GenericName=Python Environment Manager
+Comment=Manage Python virtual environments from the terminal
+Exec=bash -c 'x-terminal-emulator -e "saternet; exec bash" || gnome-terminal -- bash -c "saternet; exec bash" || xfce4-terminal -e "saternet; exec bash" || konsole -e bash -c "saternet; exec bash" || xterm -e "saternet; exec bash"'
+Icon=saternet
+Terminal=false
+Categories=Development;Utility;
+Keywords=python;virtualenv;venv;environment;developer;
+StartupNotify=false
