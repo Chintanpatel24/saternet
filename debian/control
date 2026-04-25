@@ -1,0 +1,12 @@
+Package: saternet
+Version: 1.0.0
+Section: devel
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8)
+Maintainer: chintan patel
+Description: Python virtual environment manager for Linux
+ saternet is a clean, professional CLI tool for managing Python
+ virtual environments on any Linux distribution. It provides
+ environment listing, creation, activation helpers, scanning,
+ and detailed inspection, all from a single command.
