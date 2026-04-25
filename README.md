@@ -2,20 +2,14 @@
 <img width="200" height="200" alt="saternet" src="https://github.com/user-attachments/assets/4332cd49-a3e0-410d-b534-ee41b86cb67f" />
 </div>
 
-- Python virtual environment manager for Linux.
-
-- A clean, professional CLI tool for managing Python virtual environments
+# Saternet 
+>- Python virtual environment manager for Linux.
+>- A clean, professional CLI tool for managing Python virtual environments
 across any Linux distribution. No tables, no pipes, no noise.
 
 ---
 
-<div align=center>
-<img width="694" height="583" alt="foot" src="https://github.com/user-attachments/assets/0880d91b-1c39-4b70-bb6a-ea8bac1f3f3c" />
-</div>
-
----
-
-## features
+## Features
 
 - list all environments with path, python version, size, and active status
 - create new environments anywhere on the filesystem
@@ -28,7 +22,7 @@ across any Linux distribution. No tables, no pipes, no noise.
 
 ---
 
-## install
+## Install
 
 ### quick install (recommended)
 
@@ -41,7 +35,7 @@ saternet
 ```
 ---
 
-## usage
+## Usage
 
 ```
 saternet                           list all environments
@@ -62,7 +56,18 @@ saternet help                      show all commands
 
 ---
 
-## note on activation
+>##  Foot screenshots !!
+
+<details>       
+  <summary>Tap to view ⤥ </summary>
+       
+
+<img width="694" height="583" alt="foot" src="https://github.com/user-attachments/assets/0880d91b-1c39-4b70-bb6a-ea8bac1f3f3c" />
+
+
+</details>   
+
+## Note on activation
 
 Shell environments cannot be changed by a subprocess. saternet will print
 the exact `source` command to run in your terminal. You can also add an alias:
@@ -73,7 +78,7 @@ alias myenv='source ~/envs/myenv/bin/activate'
 
 ---
 
-## update
+## Update
 
 ```bash
 cd saternet
@@ -83,7 +88,7 @@ The updater fetches the latest changes from the repository and reinstalls.
 
 ---
 
-## config
+## Config
 
 saternet stores its registry and logs at:
 
@@ -93,13 +98,13 @@ saternet stores its registry and logs at:
 ```
 
 
-## requirements
+## Requirements
 
 - python 3.8 or higher
 - bash
 - any Linux distribution
 
 
-## license
+## License
 
 MIT
