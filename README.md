@@ -1,5 +1,5 @@
 <div align=center> 
-<img width="200" height="200" alt="saternet" src="https://github.com/user-attachments/assets/4332cd49-a3e0-410d-b534-ee41b86cb67f" />
+<img alt="saternet" src="https://github.com/user-attachments/assets/4332cd49-a3e0-410d-b534-ee41b86cb67f"  width="300" />
 </div>
 
 # Saternet 
